@@ -1,0 +1,68 @@
+body{
+    background-image: url('assets/img/body.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: floralwhite;
+}
+
+.btn-danger {
+    background-color: #f5593d;
+    border-color: #f5593d;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+}
+a.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #f76767;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 25px;	
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+	a.btn:hover {
+		background-color: #0e3f80;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+    }
+    
+   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+       background-color: rgb(21, 209, 223);
+       border-bottom-color: rgb(3, 43, 78);
+   }
+    .starfleethead{
+        z-index: 1000;
+    }
+    .btn-fleet{
+        letter-spacing: 15px;
+        border: gold
+    }
+
+    .hideme{
+        transition-property: random($limit: 5);
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    .footer {
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    position: relative;
+    line-height: 20px;
+    text-align: center;
+    background-image: url('assets/img/foot_anime.gif');
+}
