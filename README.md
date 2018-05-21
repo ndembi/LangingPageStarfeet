@@ -30,7 +30,12 @@ npm install -g @angular/cli
 </p>
 
 <p>
-Ensuite, naviguez dans le dossier du projet LPSF (langing page starfleet) et lancez le serveur de développement :
+Ensuite, naviguez dans le dossier du projet  (...\LangingPageStarfleet\lpstarfleet) et técharger les modules à utiliser dans l'application
 </p>
-## LANCER le serveur
-ng serve
+<p>npm i -D @angular-devkit/core </p>
+
+## LANCER LE SERVEUR
+<p>lancez le serveur de développement :</p>
+<p>ng serve</p>
+##DEMARRER VOTRE NAVIGATEUR
+<p>localhost:4200</p>
